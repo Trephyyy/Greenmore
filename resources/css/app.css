@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('/fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSansCBold';
+    src: url('/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf') format('truetype');
+}
+
+.hero {
+    background-image: url('/images/forest.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.subhero {
+    background-color : #38441C;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbarHero {
+    background-image: url('/images/logo.png');
+}
